@@ -53,7 +53,7 @@ function obtenerMejorCalificacion(calificaciones) {
     return mejorCalificacion;
 };
 
-console.log(obtenerMejorCalificacion(calificaciones));
+console.log("La mejor calificación fue", obtenerMejorCalificacion(calificaciones));
 
 // Función para obtener la peor calificacion
 
@@ -62,7 +62,7 @@ function obtenerPeorCalificacion(calificaciones) {
     return peorCalificacion;
 };
 
-console.log(obtenerPeorCalificacion(calificaciones));
+console.log("La peor calificación fue de: ", obtenerPeorCalificacion(calificaciones));
 
 // Funcion para agregar una calificacion a un estudiante.
 
